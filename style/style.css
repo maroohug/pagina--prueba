@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
 body{
-    background-image: url(../img/fondo\ azul\ marino.jpg);
+    /*background-image: url(../img/fondo\ azul\ marino.jpg);*/
+    background: linear-gradient(to left, #3d60b1, #182848);
     color: aqua;
 }
 
