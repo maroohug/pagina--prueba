@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
+body{
+    background-image: url(../img/fondo\ azul\ marino.jpg);
+    color: aqua;
+}
+
+.iconInstagram{
+    width: 75px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.footer{
+    display: block;
+    padding: 1px;
+}
+footer{
+    border: 2px aqua solid;
+    position: relative;
+    top: 10px;
+    bottom: 5px;
+}
+.fotosDelCuerpo{
+    width: 33%;
+}
+
+/*GRID*/
+.contenedor {
+    display: grid;
+    grid-template-areas: 
+    "logo logo logo logo logo"
+    "menu menu menu menu menu"
+    "sectionA sectionA sectionA sectionA sectionC"
+    "sectionB sectionB sectionB sectionB aside"
+    "footer footer footer footer footer"
+    ;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.sectionA {
+    grid-area: sectionA;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/vectors/soccer-background-in-blue-colors-vector-id1135383989?b=1&k=6&m=1135383989&s=170667a&w=0&h=inlnxhDAsxFRPhojhL__itAjuUxVmy09ibLtxNY1ch4=");
+    color: rgb(255, 255, 255);
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 1%;
+}
+
+
+.sectionB {
+    grid-area: sectionB;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/vectors/soccer-background-in-blue-colors-vector-id1135383989?b=1&k=6&m=1135383989&s=170667a&w=0&h=inlnxhDAsxFRPhojhL__itAjuUxVmy09ibLtxNY1ch4=");
+    color: rgb(255, 255, 255);
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 1%;
+}
+.posiciones{
+    width: 75%;
+}
+.festejoDeGol{
+    width: 75%;
+}
+.fotoDelEquipo{
+    width: 75%;
+}
+.sectionC {
+    grid-area: sectionC;
+    text-align: center;
+}
+.sectionC ul li{
+    list-style: none;
+}
+.sectionC ul li img{
+    width: 80%;
+}
+.sectionB ul{
+    list-style: none;
+}
+aside {
+    grid-area: aside;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Fin GRID*/
+
+.tituloSectionA{
+    text-align: center;
+    width: 100%;
+}
+
+/***************************************/
+
+/*Encabezado con relative*/
+.escudoBc{
+    width: 150px;
+    display: inline;
+    position: relative;
+    left: 50px;
+}
+h1{
+    position: relative;
+    display: inline;
+} 
+.renglonUno{
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+}
+ .renglonDos{
+    position: relative;
+    bottom: 50px;
+    right: 105px;
+    }
+/*Fin de Encabezado*/
+/*Flex de NAV*/
+
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0%;
+}
+.menu{
+    background-color: rgb(24, 153, 153);
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px black;
+}
+.menuItems {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+.menuItems li{
+    border-radius: 3px;
+    width: 100%;
+}
+
+.menuItems li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+}
+/*Fin flex de NAV*/
+
+@media (max-width:768px){
+    .contenedor {
+        display: grid;
+        grid-template-areas: 
+        "logo logo"
+        "menu menu"
+        "sectionA sectionA"
+        "sectionB sectionB"
+        "footer footer"
+        ;
+    }
+   aside{
+    display: none;
+   }
+   .sectionC{
+    display: none;
+   }
+}
