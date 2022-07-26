@@ -193,3 +193,24 @@ nav{
     display: none;
    }
 }
+ /* Animaciones*/
+ .fotosDelCuerpo{
+    filter: grayscale(75%);
+}
+.fotosDelCuerpo:hover{
+    filter: none;
+} 
+ 
+ @keyframes contenedor {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+ }
+ .contenedor{
+    animation-name: contenedor;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+ }
