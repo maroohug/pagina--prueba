@@ -129,13 +129,13 @@ h1{
 } 
 .renglonUno{
     position: relative;
-    bottom: 100px;
+    bottom: 30px;
     left: 80px;
 }
  .renglonDos{
     position: relative;
-    bottom: 50px;
-    right: 105px;
+    bottom: -15px;
+    right: 150px;
     }
 /*Fin de Encabezado*/
 /*Flex de NAV*/
@@ -171,7 +171,7 @@ nav{
     font-size: 18px;
     display: block;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(3, 68, 128);
 }
 /*Fin flex de NAV*/
 
