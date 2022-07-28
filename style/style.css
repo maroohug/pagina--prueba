@@ -176,6 +176,15 @@ nav{
 /*Fin flex de NAV*/
 
 @media (max-width:768px){
+    h1 {
+        font-size: 20px;
+
+    }
+    .renglonDos{
+        position: relative;
+        bottom: -15px;
+        right: 30px;
+        }
     .contenedor {
         display: grid;
         grid-template-areas: 
@@ -192,6 +201,15 @@ nav{
    .sectionC{
     display: none;
    }
+   
+}
+@media (max-width:520px){
+    h1{
+        display: none;
+    }
+    .logo{
+        text-align: center;
+    }
 }
  /* Animaciones*/
  .fotosDelCuerpo{
