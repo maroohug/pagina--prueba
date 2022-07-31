@@ -32,7 +32,7 @@ footer{
 .contenedor {
     display: grid;
     grid-template-areas: 
-    "logo logo logo logo"
+    "logo logo logo logo logo"
     "menu menu menu menu menu"
     "sectionA sectionA sectionA sectionA sectionC"
     "sectionB sectionB sectionB sectionB aside"
